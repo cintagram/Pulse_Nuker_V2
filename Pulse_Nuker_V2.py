@@ -12,7 +12,7 @@ def randomletters(length):
     letters = string.ascii_letters
     return ''.join(random.choice(letters) for i in range(length))
 
-TOKEN = ("MTE0NjI4MjY4MDk0MjU5NjE4OA.Gh2Qxi.KP2GRWpMeXHyQDapRTWJu8l0tqBqofO3SoREQc")
+TOKEN = ("")
 
 client=discord.Client(intents=discord.Intents.all())
 spam_messages = ["@everyone", "easy @everyone", "lol @everyone"]
